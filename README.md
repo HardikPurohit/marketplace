@@ -1,24 +1,12 @@
-# README
+# Marketplace APIs
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Ruby on Rails application
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#####Note: Please edit config/databse.yml file for databse configurations as per your system databse configurations before runing following commands.
+```
+  bundle install
+  rails db:create
+  rails db:migrate
+  rails db:seed
+  rails s
+```

@@ -4,6 +4,9 @@ class CreateProducts < ActiveRecord::Migration[6.0]
       t.string :code, index: true, unique: true
       t.string :name
       t.float :price
+      t.integer :items
+      t.float   :discount_percentage
+      t.integer :item_added
 
       t.timestamps
     end

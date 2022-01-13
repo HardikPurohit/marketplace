@@ -19,6 +19,9 @@ ActiveRecord::Schema.define(version: 2022_01_12_124938) do
     t.string "code"
     t.string "name"
     t.float "price"
+    t.integer "items"
+    t.float "discount_percentage"
+    t.integer "item_added"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["code"], name: "index_products_on_code"
